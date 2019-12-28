@@ -19,4 +19,4 @@ The USB camera we were provided with was giving distorted image, we had to calib
 ## Task 4: Theme Implementation.
 In this task we had to fine tune our algorithm and  navigate to different points on the arena provided using image processing and control algorithm.
 * Video link - https://youtu.be/mAcC1o_XfSA. This video has screen recording of the process till 2:56, it is followed by real time video.   
-https://youtu.be/mAcC1o_XfSA
+
