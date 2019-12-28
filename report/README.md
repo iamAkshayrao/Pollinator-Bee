@@ -10,7 +10,7 @@ In this task we were required to design the control algorithm for the drone and 
 * Video link - https://youtu.be/DpjnzrNq6PA.
 
 ## Task 2: Arena design and Hardware testing.
-This task involved testing of the hardware provided to us and also printing of the arena.
+This task involved testing of the hardware provided to us and also printing of the arena.Then we build artificial plants and an electrical circuits which was required by the theme.
 
 ## Task 3: Camera calibration and Position Hold.
 The USB camera we were provided with was giving distorted image, we had to calibrate the camera using checkerboard pattern.Then we implemented our Parallel PID algorithm on the real drone - Pluto drone.
