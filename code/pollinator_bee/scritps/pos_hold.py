@@ -58,8 +58,8 @@ class DroneFly():
 
 		#stores the value of coordinates of plants
 		self.Plant_location = 	[(-2.0, 1.0, 25.0),(4.8, -5.5, 25.0) , (4.8,-5.5, 25.7), (4.8, -5.5, 25.0),
-								 (-1.0, -5.8, 25.0), (-1.0,-5.8,29.5), (-1.0, -5.8, 28.0),
-								 (-6.0, -2.8, 28.0), (-6.0,-2.8,29.5), (0.0, 0.0, 25.0) ]
+					(-1.0, -5.8, 25.0), (-1.0,-5.8,29.5), (-1.0, -5.8, 28.0),
+					(-6.0, -2.8, 28.0), (-6.0,-2.8,29.5), (0.0, 0.0, 25.0) ]
 		
 		#intitialising an iterator which picks the right movement of drone in change_self_iter function 
 		self.iter=0
@@ -257,41 +257,41 @@ class DroneFly():
 			if ((self.iter == 3) and (self.bluecounts < 1)):
 				self.iter -= 1
 				(self.wp_x,self.wp_y,self.wp_z) = (self.Plant_location[self.iter][0], 
-												   self.Plant_location[self.iter][1], 
-												   self.Plant_location[self.iter][2])	
+								   self.Plant_location[self.iter][1], 
+								   self.Plant_location[self.iter][2])	
 				
 			elif self.iter in (1,2,4,5,7,8):
 				(self.wp_x,self.wp_y,self.wp_z) = (self.Plant_location[self.iter][0],
-												   self.Plant_location[self.iter][1],
-												   self.Plant_location[self.iter][2])
+						                   self.Plant_location[self.iter][1],
+								   self.Plant_location[self.iter][2])
 				
 			elif ((self.iter == 3) and (self.bluecounts >=1)):
 				(self.wp_x,self.wp_y,self.wp_z) = (self.Plant_location[self.iter][0],
-												   self.Plant_location[self.iter][1], 
-												   self.Plant_location[self.iter][2])
+								   self.Plant_location[self.iter][1], 
+								   self.Plant_location[self.iter][2])
 				
 			elif self.iter == 6 and (self.greencounts < 1):
 				self.iter -= 1
 				(self.wp_x,self.wp_y,self.wp_z) = (self.Plant_location[self.iter][0],
-												   self.Plant_location[self.iter][1], 
-												   self.Plant_location[self.iter][2])
+								   self.Plant_location[self.iter][1], 
+							           self.Plant_location[self.iter][2])
 	
 			elif ((self.iter == 6) and (self.greencounts >= 1)):
 				(self.wp_x,self.wp_y,self.wp_z) = (self.Plant_location[self.iter][0],
-												   self.Plant_location[self.iter][1], 
-												   self.Plant_location[self.iter][2])
+								   self.Plant_location[self.iter][1], 
+								   self.Plant_location[self.iter][2])
 					
 			elif ((self.iter == 9) and (self.redcounts < 1)):
 				
 				self.iter-=1
 				(self.wp_x,self.wp_y,self.wp_z) = (self.Plant_location[self.iter][0], 
-												   self.Plant_location[self.iter][1], 
-												   self.Plant_location[self.iter][2])
+								   self.Plant_location[self.iter][1], 
+								   self.Plant_location[self.iter][2])
 
 			elif (self.iter == 9 and (self.redcounts >= 1)):
 				(self.wp_x,self.wp_y,self.wp_z) = (self.Plant_location[self.iter][0],
-												   self.Plant_location[self.iter][1], 
-												   self.Plant_location[self.iter][2])
+								   self.Plant_location[self.iter][1], 
+								   self.Plant_location[self.iter][2])
 
 			elif self.iter > 9:
 				(self.wp_x,s elf.wp_y, self.wp_z) = (0.0,0.0,25.0)
