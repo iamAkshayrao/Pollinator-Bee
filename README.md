@@ -1,6 +1,10 @@
 # Pollinator-Bee
 Localization of Quadcopters using Whycon markers.
 
+
+### Contributors
+Akshay S Rao, Aliasgar AV, [Ankit Kumar](https://github.com/Ankit-km), [Mohammed Rehab Sait](https://github.com/MohammedRehabS).
+
 ### Video Demonstration
 https://youtu.be/zN5eXg5qNxU
 
