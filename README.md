@@ -24,9 +24,9 @@ Real-Time testing
 Tuning PID parameters for dynamics of quadcopter
 
 <p float="left">
-  <img src="media/Screenshot from 2019-01-29 17-40-14.png" alt="drawing" width="300" height="300"/>
-  <img src="media/Screenshot from 2019-01-29 17-12-45.png" alt="drawing" width="300" height="300"/>
-  <img src="media/Screenshot from 2019-01-29 18-40-16.png" alt="drawing" width="300" height="300"/>
+  <img src="media/Screenshot_from_2019-01-29-17-40-14.png" alt="drawing" width="300" height="300"/>
+  <img src="media/Screenshot_from_2019-01-29-17-12-45.png" alt="drawing" width="300" height="300"/>
+  <img src="media/Screenshot_from_2019-01-29-18-40-16.png" alt="drawing" width="300" height="300"/>
 </p> 
 
 <p float="left">
