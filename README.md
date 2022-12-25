@@ -21,8 +21,6 @@ Testing on VREP simulator
 
 Real-Time testing
 
-Tuning PID parameters for dynamics of quadcopter
-
 <p float="left">
   <img src="media/rectanglescompressed.gif" alt="drawing" width="300" height="300"/>
   <img src="media/realtimecompressed.gif" alt="drawing" width="300" height="300"/>
